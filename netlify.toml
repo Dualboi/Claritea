@@ -1,4 +1,0 @@
-[build]
-  base = ""            # Set to "" if your index.html is in root
-  publish = "dist"
-  command = "npm run build"

@@ -1,3 +1,4 @@
 [build]
+  base = "claritea-app"
   command = "npm run build"
   publish = "dist"

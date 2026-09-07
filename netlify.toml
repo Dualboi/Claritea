@@ -1,4 +1,4 @@
 [build]
-  base = "claritea-app"
+  base = "positivi-tea-app"
   command = "npm run build"
   publish = "dist"

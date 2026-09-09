@@ -34,10 +34,16 @@ export default function Navbar() {
 					>
 						About Us
 					</a>
+					<a
+						href="/products"
+						className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-colors"
+					>
+						Products
+					</a>
 				</div>
 
 				<a
-					href="#shop"
+					href="/products"
 					className="hidden sm:inline-flex items-center justify-center bg-slate-900 text-white px-5 py-2.5 rounded text-sm font-medium hover:bg-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 transition-colors"
 				>
 					Shop tea

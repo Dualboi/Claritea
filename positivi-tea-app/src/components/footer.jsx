@@ -11,7 +11,7 @@ export default function Footer() {
               <img
                 src="/favicon.svg"
                 alt="logo"
-                className="w-24"
+                className="w-50 h-50"
               />
             </a>
           </div>

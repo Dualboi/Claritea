@@ -11,7 +11,7 @@ export default function Navbar() {
 				>
 					<img src="/favicon.svg" alt="Positivi-Tea logo" className="w-12 h-12" />
 					<span className="text-slate-900 font-semibold tracking-tight">
-						Positivi-Tea
+						Sue Blenkhorn Coaching
 					</span>
 				</a>
 

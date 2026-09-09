@@ -116,7 +116,7 @@ export default function Footer() {
         </div>
 
         <p className="text-slate-600 text-sm mt-8">
-          © Positivi-Tea. All rights reserved.
+          © Sue Blenkhorn Coaching &amp; Positivi-Tea. All rights reserved.
         </p>
       </div>
     </footer>

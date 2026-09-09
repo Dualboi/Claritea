@@ -5,7 +5,7 @@ import easiTea from "./assets/easi-tea.JPG";
 import stabiliTea from "./assets/stabili-tea.JPG";
 import tranquiliTea from "./assets/tranquili-tea.JPG";
 import uniTea from "./assets/uni-tea.JPG";
-import teaImage from "./assets/tea-image.JPG";
+import brandImage from "./assets/brand-logo.JPG";
 
 const products = [
     {
@@ -65,7 +65,7 @@ function Products() {
                     </div>
                     <div className="overflow-hidden rounded-sm bg-white shadow-sm">
                         <img
-                            src={teaImage}
+                            src={brandImage}
                             alt="A colourful loose-leaf tea blend"
                             className="h-80 w-full object-cover md:h-112"
                         />

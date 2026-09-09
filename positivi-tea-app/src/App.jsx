@@ -1,4 +1,4 @@
-import footer from "./components/footer";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
           Positivi-Tea coming soon!
         </h1>
       </div>
-      <footer />
+      <Footer />
     </>
   );
 }

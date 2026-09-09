@@ -1,32 +1,32 @@
-export default function footer() {
+export default function Footer() {
   return (
-    <footer class="bg-white pt-16 pb-8 px-4 md:px-8">
-      <div class="max-w-7xl mx-auto">
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-6 sm:gap-x-8">
-          <div class="lg:flex lg:items-center">
+    <footer className="bg-white pt-16 pb-8 px-4 md:px-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-6 sm:gap-x-8">
+          <div className="lg:flex lg:items-center">
             <a
               href="#"
-              class="block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
+              className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
             >
               <img
-                src="positivi-tea-app/public/favicon.svg"
+                src="/favicon.svg"
                 alt="logo"
-                class="w-18"
+                className="w-18"
               />
             </a>
           </div>
 
-          <div class="lg:flex lg:items-center">
-            <ul class="flex flex-wrap gap-6">
+          <div className="lg:flex lg:items-center">
+            <ul className="flex flex-wrap gap-6">
               <li>
                 <a
                   href="#"
-                  class="flex items-center bg-slate-200 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                  className="flex items-center bg-slate-200 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                   aria-label="Facebook"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="size-full fill-slate-600"
+                    className="size-full fill-slate-600"
                     viewBox="0 0 155.139 155.139"
                     aria-hidden="true"
                   >
@@ -40,12 +40,12 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="flex items-center bg-slate-200 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                  className="flex items-center bg-slate-200 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                   aria-label="LinkedIn"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="size-full fill-slate-600"
+                    className="size-full fill-slate-600"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >
@@ -59,12 +59,12 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="flex items-center bg-slate-200 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                  className="flex items-center bg-slate-200 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                   aria-label="X"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="size-full fill-slate-600"
+                    className="size-full fill-slate-600"
                     viewBox="0 0 1226.37 1226.37"
                     aria-hidden="true"
                   >
@@ -78,12 +78,12 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="flex items-center bg-slate-200 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                  className="flex items-center bg-slate-200 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                   aria-label="Github"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="size-full fill-slate-600"
+                    className="size-full fill-slate-600"
                     viewBox="0 0 438.549 438.549"
                     aria-hidden="true"
                   >
@@ -98,14 +98,14 @@ export default function footer() {
           </div>
 
           <div>
-            <h3 class="text-slate-900 font-semibold text-sm mb-6">
+            <h3 className="text-slate-900 font-semibold text-sm mb-6">
               Useful links
             </h3>
-            <ul class="space-y-4 text-slate-600 text-sm font-normal">
+            <ul className="space-y-4 text-slate-600 text-sm font-normal">
               <li>
                 <a
                   href="#"
-                  class="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   Featured
                 </a>
@@ -113,7 +113,7 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   New Arrivals
                 </a>
@@ -121,7 +121,7 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   New Arrivals
                 </a>
@@ -130,14 +130,14 @@ export default function footer() {
           </div>
 
           <div>
-            <h3 class="text-slate-900 font-semibold text-sm mb-6">
+            <h3 className="text-slate-900 font-semibold text-sm mb-6">
               Information
             </h3>
-            <ul class="space-y-4 text-slate-600 text-sm font-normal">
+            <ul className="space-y-4 text-slate-600 text-sm font-normal">
               <li>
                 <a
                   href="#"
-                  class="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   About Us
                 </a>
@@ -145,7 +145,7 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   Terms &amp; Conditions
                 </a>
@@ -153,7 +153,7 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   Privacy Policy
                 </a>
@@ -161,7 +161,7 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   Sale
                 </a>
@@ -169,7 +169,7 @@ export default function footer() {
               <li>
                 <a
                   href="#"
-                  class="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
+                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   Documentation
                 </a>
@@ -178,7 +178,7 @@ export default function footer() {
           </div>
         </div>
 
-        <p class="text-slate-600 text-sm mt-8">
+        <p className="text-slate-600 text-sm mt-8">
           © Positivi-Tea. All rights reserved.
         </p>
       </div>

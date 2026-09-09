@@ -1,4 +1,4 @@
-function footer() {
+export default function footer() {
   return (
     <footer class="bg-white pt-16 pb-8 px-4 md:px-8">
       <div class="max-w-7xl mx-auto">
@@ -179,7 +179,7 @@ function footer() {
         </div>
 
         <p class="text-slate-600 text-sm mt-8">
-          © ReadymadeUI. All rights reserved.
+          © Positivi-Tea. All rights reserved.
         </p>
       </div>
     </footer>

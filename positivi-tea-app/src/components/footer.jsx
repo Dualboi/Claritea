@@ -79,14 +79,6 @@ export default function Footer() {
                   New Arrivals
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
-                >
-                  New Arrivals
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -125,14 +117,6 @@ export default function Footer() {
                   className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
                 >
                   Sale
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
-                >
-                  Documentation
                 </a>
               </li>
             </ul>

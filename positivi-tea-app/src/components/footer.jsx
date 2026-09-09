@@ -111,14 +111,6 @@ export default function Footer() {
                   Privacy Policy
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded transition-all"
-                >
-                  Sale
-                </a>
-              </li>
             </ul>
           </div>
         </div>
